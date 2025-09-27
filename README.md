@@ -4,7 +4,9 @@ A fun little Flutter web app showcasing [Oscar the Grouch's](https://en.wikipedi
 
 It also accounts for the submission of [Single-Page CV](https://roadmap.sh/projects/single-page-cv) Project on [roadmap.sh](https://https://roadmap.sh/).
 
-Just a small, yet cool learning project.
+Just a small, yet cool learning project. 
+
+Live at [GitHub Pages](https://architxkumar.github.io/oscar-the-grouch-cv/)
 
 ## Features (What I learnt as well)
 - 😁 Fun single resume to peek into the life of beloved Oscar
