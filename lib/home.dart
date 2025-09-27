@@ -12,6 +12,8 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final height = MediaQuery.heightOf(context);
+    final width = MediaQuery.widthOf(context);
     const blocks = [
       TitleBlock(),
       AddressBlock(),
@@ -22,7 +24,7 @@ class HomeScreen extends StatelessWidget {
     ];
     return Scaffold(
       body: ListView.separated(
-        padding: EdgeInsets.symmetric(vertical: 56, horizontal: 104),
+        padding: EdgeInsets.symmetric(vertical: 0.05 * height, horizontal: width * 0.05),
         itemCount: 6,
         itemBuilder: (context, index) {
           return blocks[index];
