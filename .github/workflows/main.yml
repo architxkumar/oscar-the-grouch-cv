@@ -18,7 +18,7 @@ jobs:
       - name: Install Dependencies
         run: flutter pub get
       - name: Build Web
-        run: flutter build web --release
+        run: flutter build web --base-href /oscar-the-grouch-cv/
       - name: Upload Web Build Artifact
         id: deployment
         uses: actions/upload-pages-artifact@v3
