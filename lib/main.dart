@@ -11,7 +11,7 @@ class CVApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Oscar the grouch CV',
+      title: 'CV',
       home: HomeScreen(),
     );
   }
